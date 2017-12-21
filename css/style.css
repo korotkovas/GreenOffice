@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image: url("../img/back.png");
+  background-repeat: repeat;
+  font-size: 16px;
+}
+
+
+.container-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+header {
+	background: #B8cb21;
+	height: 100px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header img {
+	float: left;
+	height: 80px;
+}
+
+header nav {
+	float: right;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+	line-height: 70px;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav a {
+  padding: 50px 30px;
+  color: #608000;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.sectionas {
+	margin-left: 10px;
+	padding-right: 25px;
+	border-right: solid #B8cb21 1px;
+	width: 30%;
+	float: left;
+	font-family: 'Slabo 27px', serif;
+}
+
+.tekstas:before { 
+	content: "\2602"
+}
+
+.tekstas {
+	color: #B8cb21;
+	font-family: 'Oswald', sans-serif;
+}
+
+.tekstas2 {
+color: #B8cb21;	
+}
+
+
+.firstimage {
+	width: 100%;
+}
+
+
+.buttonas {
+	color: #608000;
+	background-color: #B8cb21;
+	float: right;
+	height: 30px;
+	border-color: #B8cb21;	
+	border-bottom: 0px;
+	border-right: 0px; 
+
+
+}
+.antrasection {
+	width: 67%;
+	padding-left: 3%;
+	float: left;
+	font-family: 'Slabo 27px', serif;
+}
+
+.antrapuse:before { 
+	content: "\2602"
+}
+
+.antrapuse {
+	color: #B8cb21;
+	font-family: 'Oswald', sans-serif;	
+}
+
+
+.lorem {
+	color: #B8cb21;
+}
+
+.secondimage {
+margin-right: 5px;
+float: left;
+width: 290px;
+height: 100px;
+}
+
+.buttonas2 {
+	color: #608000;
+	background-color: #B8cb21;
+	float: right;
+	height: 30px;
+	border-color: #B8cb21;	
+	border-bottom: 0px;
+	border-right: 0px; 
+
+
+}
+
+.futeris {
+	text-align: center;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main {
+	background-color: white;
+}
+
